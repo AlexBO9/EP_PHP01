@@ -1,5 +1,31 @@
-/* 
-    Created on : 10-dic-2018, 22:06:45
-    Author     : Alex
-*/
-
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CCC;
+    padding: 10px 0;
+}
+#wrapper div{
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid black 2px;
+    background: white;
+    border-radius: 20px;
+}
+#wrapper div span.parell{
+    color: red;
+    font-size: 25px;
+    font-style: oblique;
+}
+#wrapper div span.imparell{
+    color: green;
+    font-size: 30px;
+}
+#botons{
+    width: 20%;
+    border: solid black 1px;
+    border-radius: 12px;
+    margin: 10px auto;
+    padding: 20px;
+}
