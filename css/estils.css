@@ -6,19 +6,27 @@
     padding: 10px 0;
 }
 #wrapper div{
-    width: 40%;
+    width: 60%;
     margin: 10px auto;
     padding: 10px;
     border: solid black 2px;
     background: white;
     border-radius: 20px;
 }
-#wrapper div span.parell{
+#wrapper div div{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid black 2px;
+    background: white;
+    border-radius: 20px;
+}
+#wrapper div div span.parell{
     color: red;
     font-size: 25px;
-    font-style: oblique;
+    font-style: italic;
 }
-#wrapper div span.imparell{
+#wrapper div div span.imparell{
     color: green;
     font-size: 30px;
 }
