@@ -63,9 +63,6 @@ $paraules = explode(" ", $text);
                         <?php
                         for ($i = 0; $i < strlen($text); $i++) {
                             echo "<p>";
-                            for ($j = 0; $j < strlen($text) / 2; $j++) {
-                                echo " ";
-                            }
                             for ($j = 0; $j <= $i; $j++) {
                                 if (!strcmp($text[$j], " ")) {
                                     echo "_";

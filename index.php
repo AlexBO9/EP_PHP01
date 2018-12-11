@@ -18,6 +18,15 @@
                     <input type="submit" value="Envia"/>
                     </div>
                 </form>
+                <h2>Introdueïx el nombre a processar:</h2>
+                <form action="./include/resultatImg.php" method="post">
+                    <div>
+                        <input type="number" name="num"/>
+                    </div>
+                    <div id="botons">
+                    <input type="submit" value="Envia"/>
+                    </div>
+                </form>
             </main>
         </div>
     </body>

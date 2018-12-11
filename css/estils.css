@@ -11,7 +11,7 @@
 }
 #wrapper div{
     width: 70%;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 10px;
     border: solid black 2px;
     background: white;
@@ -35,6 +35,14 @@
 #wrapper div div span.imparell{
     color: green;
     font-size: 30px;
+}
+#wrapper div div img{
+    width: 80px;
+    height: 80px;
+}
+#wrapper div div div.quadrat{
+    border: none;
+    border-bottom: solid black 1px;
 }
 #botons{
     width: 20%;
