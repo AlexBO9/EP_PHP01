@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #wrapper{
     width: 80%;
     margin: 0 auto;
@@ -6,12 +10,13 @@
     padding: 10px 0;
 }
 #wrapper div{
-    width: 60%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 20px auto;
     padding: 10px;
     border: solid black 2px;
     background: white;
     border-radius: 20px;
+    box-shadow: 5px 10px grey;
 }
 #wrapper div div{
     width: 60%;
@@ -20,6 +25,7 @@
     border: solid black 2px;
     background: white;
     border-radius: 20px;
+    box-shadow: 0 0 grey;
 }
 #wrapper div div span.parell{
     color: red;
@@ -36,4 +42,11 @@
     border-radius: 12px;
     margin: 10px auto;
     padding: 20px;
+}
+#botons input{
+    padding: 10px;
+}
+#botons input:hover{
+    background-color: green;
+    color: white;
 }
