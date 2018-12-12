@@ -27,22 +27,25 @@
     border-radius: 20px;
     box-shadow: 0 0 grey;
 }
-#wrapper div div span.parell{
+#wrapper div span.parell{
     color: red;
     font-size: 25px;
     font-style: italic;
 }
-#wrapper div div span.imparell{
+#wrapper div span.imparell{
     color: green;
     font-size: 30px;
 }
-#wrapper div div img{
-    width: 80px;
-    height: 80px;
+#wrapper div img{
+    width: 60px;
+    height: 60px;
 }
 #wrapper div div div.quadrat{
     border: none;
     border-bottom: solid black 1px;
+}
+#ona{
+    text-align: left;
 }
 #botons{
     width: 20%;
