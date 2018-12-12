@@ -65,6 +65,29 @@
                         </div>
                     </form>
                 </div>
+
+                <div>
+                    <h2>Introdueïx el caracters i text a processar:</h2>
+                    <!--Estudiants notes-->
+                    <div>
+                        <?php
+                        include './include/dades.php';
+                        foreach ($alumnosNotas as $key => $valor) {
+                            echo '<p>';
+                            echo $key.": ";
+                            foreach ($valor as $asignatura => $notes) {
+                                echo $asignatura.'(';
+                                echo $notes[0];
+                                for ($i = 1; $i < count($notes); $i++) {
+                                    echo ','.$notes[$i];
+                                }
+                                echo ')';
+                            }
+                            echo '</p>';
+                        }
+                        ?>
+                    </div>
+                </div>
             </main>
         </div>
     </body>
